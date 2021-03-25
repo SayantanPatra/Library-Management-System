@@ -1,0 +1,30 @@
+<html>
+
+<head>
+<i><center>ISSUING BOOKS</center></i>
+</head>
+<body>
+Subject:<select name="maths"><option value="a">MATHEMATICS</option>
+<option value="b">MECHANICS</option>
+<option value="c">PHYSICS</option>
+</select><br><br>
+
+Date of issue:<input type="date" id="f1" value="date"><br><br>
+No of days:<input type="radio" name="no of days" value="1">1
+<input type="radio" name="no of days" value="2">2
+<input type="radio" name="no of days" value="3">3
+<input type="radio" name="no of days" value="4">4
+<input type="radio" name="no of days" value="5">5
+<input type="radio" name="no of days" value="6">6
+<input type="radio" name="no of days" value="7">7
+<button onclick="myFunction()">NOTE</button><br><br>
+No of books:<input type="number" id="f2" value="number"><br><br>
+
+<p id="demo"></p>
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "if you exceed more than 7 days.then you will be fined 1day=10Rs";
+}
+</script>
+</body>
+</html>

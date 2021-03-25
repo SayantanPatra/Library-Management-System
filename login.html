@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<title>USER LOGIN</title>
+<link rel="shortcut icon" href="library.ico">
+<link rel="stylesheet"  href="css5.css">
+<script src="login.js" type="text/javascript"></script>
+
+<body>
+<h1><i>LIBRARY LOGIN</i></h1>
+<div id="input">
+<form>
+<strong>Username</strong>
+<input type="text" name="userid"><br>
+<strong>Password </strong>
+<input  type="password" name="paswd" >
+<input  type="button" value="log in" onclick="check(this.form)" id="abc">
+<script>
+document.getElementById("abc").onmouseover=temp1;
+document.getElementById("abc").onmouseout=temp2;
+
+function temp1()
+{
+this.style.backgroundColor= 'red';
+}
+function temp2()
+{
+this.style.backgroundColor='blue';
+}
+</script>
+</form>
+<script>
+var user=["user1","user2","user3"];
+var pass=["pass1","pass2","pass3"];
+var i,j=0;
+ function check(form)
+{
+for(i=0;i<3;i++)
+{
+if(form.userid.value==user[i]&&form.paswd.value==pass[i])
+{
+window.open("project.html");
+}
+}
+
+if(j==0)
+{alert("Wrong username or password");}
+}
+</script>
+<div>
+</body>
+</html>

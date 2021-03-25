@@ -1,0 +1,40 @@
+﻿
+
+iteam1
+{
+grid-area:head;
+font-size:30px;
+padding-bottom:200px;
+
+}
+.grid-container > div
+{
+color:white;
+font-family: "Comic Sans MS";
+text-align:center;
+}
+
+a
+{
+color:white;
+font-size:30px;
+text-decoration:none;
+padding-left:60px;
+float:center;
+}
+
+
+a:hover
+{
+color:blue;
+}
+body{
+background-image:url("library home.jpg");
+background-size:cover;
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:100%;
+
+}
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<link rel="shortcut icon" href="library.ico">
+<link rel="stylesheet"  href="css6.css">
+<script src="signin.js" type="text/javascript"></script>
+<title>
+SIGN UP
+</title>
+</head>
+<body>
+<center><h1>                   LIBRARY SIGNUP</h1></center>
+
+<form>
+<table><br><br>
+<tr>
+<td><strong>First name</strong></td>
+<td><input type="text" name="fname" ></td>
+</tr>
+<tr>
+<td><strong>Last name</strong></td>
+<td><input type="text" name="lname" ></td>
+</tr>
+<tr>
+<td><strong>Date of birth</strong></td>
+<td><input type="date" name="dob"></td>
+</tr>
+<tr>
+<td><strong>Gender</strong></td>
+<td><select name="gender">
+<option value="male">Male</option>
+<option value="female">Female</option>
+<option value="other">Other</option>
+</select></td>
+</tr>
+<tr>
+<td><strong>Phone number</strong></td>
+<td><input type="number"  name="phoneno"></td>
+</tr>
+<tr>
+<td><strong>User name</strong></td>
+<td><input type="text" name="uname"></td>
+</tr>
+<tr>
+<td><strong>Password</strong></td>
+<td><input type="password" name="passwd"></td>
+</tr>
+</table>
+<input type="button" value="Sign in" onclick="signin()" id="abc">
+<script>
+document.getElementById("abc").onmouseover=temp1;
+document.getElementById("abc").onmouseout=temp2;
+
+function temp1()
+{
+this.style.backgroundColor= 'red';
+}
+function temp2()
+{
+this.style.backgroundColor='blue';
+}
+</script>
+</form>
+<script>
+function signin()
+{
+alert("account created successfully");
+window.open("home.html"); 
+}
+</script> 
+</body>
+</html>

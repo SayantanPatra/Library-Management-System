@@ -1,0 +1,22 @@
+
+table
+{
+width:100%;
+height:100%
+}
+table,td,th
+{
+border:1px solid white;
+border-collapse:collapse;
+}
+
+
+body
+{background-image:url("signup.jpg");
+background-size:cover;
+background-attachment:fixed;
+}
+
+
+
+

@@ -1,0 +1,43 @@
+
+.iteam1
+{
+grid-area:head;
+font-size:30px;
+padding-bottom:100px;
+background-image:url("mat.jpg");
+background-repeat:no-repeat;
+background-size:100%;
+}
+.grid-container > div
+{
+color:white;
+font-family: "Comic Sans MS";
+text-align:center;
+}
+table
+{
+width:100%;
+height:100%
+}
+table,td,th
+{
+border:1px solid white;
+border-collapse:collapse;
+}
+
+p
+{
+color:black;
+font-family:cursive;
+text-align:center;
+font-weight:bold;
+}
+body
+{background-image:url("mat.jpg");
+background-size:cover;
+background-attachment:fixed;
+}
+
+
+
+

@@ -1,0 +1,116 @@
+<!Doctype html>
+<html>
+<head>
+<style>
+table,th,td{
+background-color:white;
+}
+</style>
+
+<title>PHYSICS</title>
+<link rel="shortcut icon" href="library.ico">
+<link rel="stylesheet"  href="css2.css">
+<script src="physics.js" type="text/javascript"></script>
+<style>
+.grid-container{display: grid;
+grid-template-areas:
+'h1 h1 h1'
+'h2 h2 h2'
+'h3 h3 h3'
+'h4 h4 h4'
+'h5 h5 h5'
+'h6 h6 h6'
+'h7 h7 h7'
+'h8 h8 h8'
+'h9 h9 h9';
+grid-gap: 10px;
+background-color:black;
+padding: 10px;}
+
+.grid-container>div {
+background-color: lightgreen;
+text align: center;
+padding: 20px;
+font-size: 50px;}
+.item1 { grid-area: h1; }
+.item2 { grid-area: h2; }
+.item3 { grid-area: h3; }
+.item4 { grid-area: h4; }
+.item5 { grid-area: h5; }
+.item6 { grid-area: h6; }
+.item7 { grid-area: h7; }
+.item8 { grid-area: h8; }
+.item9 { grid-area: h9; }
+</style>
+</head>
+<body>
+<div class="iteam1">
+<div style="background-color:rgba(200,0,0);padding-bottom:35px;">
+</div>
+<br><br>
+<center><div style="border-radius:10px;margin-top:10%;font-size:60px;font-family:sans-serif;font-weight:bold;background-color:white;width:30%;">
+PHYSICS BOOKS</div>
+</center>
+<br><br><br><br><br><br><br><br><br>
+<div class="grid-container">
+<div class="item1"><b>1.lasers</b></div>
+<div class="item2"><b>2.waves</b></div>
+<div class="item3"><b>3.electromagnetism</b></div>
+<div class="item4"><b>4.matter waves</b></div>
+<div class="item5"><b>5.benz</b></div>
+<div class="item6"><b>6.mercedes</b></div>
+<div class="item7"><b>7.mechanics</b></div>
+<div class="item8"><b>8.optondon</b></div>
+<div class="item9"><b>9.hcverma</b></div>
+</div>
+<table border="5">
+<tr><th id="t1" onmouseover="fun1()"><h1><big>1</big></h1></th>
+<th id="t2" onmouseover="fun2()"><h1><big>2</big></h1></th>
+<th id="t3" onmouseover="fun3()"><h1><big>3</big></h1></th>
+<th id="t4" onmouseover="fun4()"><h1><big>4</big></h1></th>
+<th id="t5" onmouseover="fun5()"><h1><big>5</big></h1></th>
+<th id="t6" onmouseover="fun6()"><h1><big>6</big></h1></th>
+<th id="t7" onmouseover="fun7()"><h1><big>7</big></h1></th>
+<th id="t8" onmouseover="fun8()"><h1><big>8</big></h1></th>
+<th id="t9" onmouseover="fun9()"><h1><big>9</big></h1></th>
+</tr></table>
+<script>
+function fun1()
+{
+document.getElementById("t1").innerHTML="NAME:lasers <br> AUTHOR NAME:tandon <br> YEAR OF PUBLICATIONS:1879<br> NUMBER OF COPIES:05<br> COST OF BOOK:400";
+}
+function fun2()
+{
+document.getElementById("t2").innerHTML="NAME:waves <br> AUTHOR NAME:grewal <br> YEAR OF PUBLICATIONS:1980 <br>NUMBER OF COPIES:20<br> COST OF BOOK:500";
+}
+function fun3()
+{
+document.getElementById("t3").innerHTML="NAME:electromagnetism <br> AUTHOR NAME:dmitri <br> YEAR OF PUBLICATIONS:1789<br> NUMBER OF COPIES:100<br> COST OF BOOK:600";
+}
+function fun4()
+{
+document.getElementById("t4").innerHTML="NAME:matterwaves <br> AUTHOR NAME:umansh <br> YEAR OF PUBLICATIONS:1567<br> NUMBER OF COPIES:65<br> COST OF BOOK:300";
+}
+function fun5()
+{
+document.getElementById("t5").innerHTML="NAME:benz <br> AUTHOR NAME:sharma<br>  YEAR OF PUBLICATIONS:1900<br> NUMBER OF COPIES:76<br> COST OF BOOK:741";
+}
+function fun6()
+{
+document.getElementById("t6").innerHTML="NAME:mercedes <br> AUTHOR NAME:verma <br> YEAR OF PUBLICATIONS:1567 <br>NUMBER OF COPIES:98<br> COST OF BOOK:951";
+}
+function fun7()
+{
+document.getElementById("t7").innerHTML="NAME:mechanics <br> AUTHOR NAME:mallikarjun <br> YEAR OF PUBLICATIONS:1988<br> NUMBER OF COPIES:34<br> COST OF BOOK:753";
+}
+function fun8()
+{
+document.getElementById("t8").innerHTML="NAME:optondon <br> AUTHOR NAME:chandu <br> YEAR OF PUBLICATIONS:1879 <br>NUMBER OF COPIES:76<br> COST OF BOOK:241";
+}
+function fun9()
+{
+document.getElementById("t9").innerHTML="NAME:hcverma <br> AUTHOR NAME:madhu <br> YEAR OF PUBLICATIONS:1980 <br>NUMBER OF COPIES:5 <br>COST OF BOOK:326";
+}
+</script>
+</body>
+</html>

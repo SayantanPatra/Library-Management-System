@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style> 
+body {
+background-image:url("curten.jpg");
+
+}
+h1 {
+font-size: 50px;
+margin-left:900px;
+text-align: center;
+height: 190px;
+width: 2.3%;
+color: blue;
+background-color: white;
+border: 2px solid black;
+}
+#input {
+font-size: 20px;
+border: 2px solid black;
+background-color: white;
+line-height: 1.5;
+padding: 20px 20px;
+width: 25%;
+margin-left: 415px;
+text-align: center;
+}
+</style>
+<title>
+home page
+</title>
+</head>
+<body>
+<h1>LOVELY MOVIES</h1>
+<div id="input">
+<form>
+<table>
+<tr>
+<td><strong>First name</strong></td>
+<td><input type="text" name="fname" ></td>
+</tr>
+<tr>
+<td><strong>Last name</strong></td>
+<td><input type="text" name="lname" ></td>
+</tr>
+<tr>
+<td><strong>Date of birth</strong></td>
+<td><input type="date" name="dob"></td>
+</tr>
+<tr>
+<td><strong>Gender</strong></td>
+<td><select name="gender">
+<option value="male"><strong>Male</option>
+<option value="female"><strong>Female</option>
+<option value="other"><strong>Other</option>
+<select></td>
+</tr>
+<tr>
+<td><strong>Phone number</strong></td>
+<td><input type="number"  name="phoneno"></td>
+</tr>
+<tr>
+<td><strong>User name</strong></td>
+<td><input type="text" name="uname"></td>
+</tr>
+<tr>
+<td><strong>Password</strong></td>
+<td><input type="password" name="passwd"></td>
+</tr>
+</table>
+<input type="button" value="Sign in" onclick="signin()">
+</form>
+<script>
+function signin()
+{
+alert("account created successfully");
+window.open("home.html"); 
+}
+</script> 
+<div>
+</body>
+</html>
